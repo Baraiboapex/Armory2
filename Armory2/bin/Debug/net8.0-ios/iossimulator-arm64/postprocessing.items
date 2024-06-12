@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="Armory2.app/Armory2">
+      <BCSymbolMapName>Armory2.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>Armory2.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>\Users\mattbailey\Library\Caches\Xamarin\mtbs\builds\Armory2\dbbb93bdf54c44b72c7df7aa6f796e67a90428707a1eada951bf5458dbea9d91\obj\Debug\net8.0-ios\iossimulator-arm64\mtouch-symbols.list</SymbolFile>
+      <DSymName>Armory2.app.dSYM</DSymName>
+      <SourceProjectPath>C:\Users\MatthewBailey\source\repos\Armory2\Armory2</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
