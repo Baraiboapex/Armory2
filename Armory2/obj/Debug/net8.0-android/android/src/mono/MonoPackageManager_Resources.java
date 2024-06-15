@@ -30,6 +30,7 @@ public class MonoPackageManager_Resources {
 		"Prism.DryIoc.Maui.dll",
 		"Prism.Events.dll",
 		"Prism.Maui.dll",
+		"PropertyChanged.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",

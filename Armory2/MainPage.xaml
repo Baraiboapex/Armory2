@@ -4,6 +4,7 @@
              x:Class="Armory2.MainPage"
              xmlns:local="clr-namespace:Armory2"
              x:DataType="local:MainPageViewModel"
+             x:Name="Form"
              >
 
     <ContentPage.Resources>
@@ -13,39 +14,43 @@
                 <Label Grid.Row="1" Grid.Column="0" Text="{Binding Description}"/>
             </Grid>
         </DataTemplate>
+        <DataTemplate x:Key="ItemNested" x:DataType="local:ItemObject">
+            <Grid RowDefinitions="Auto,Auto,Auto,Auto" ColumnDefinitions="*" Margin="10" BackgroundColor="Bisque">
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding BindingContext.SectionTapped, Source={x:Reference Form}}" CommandParameter="{Binding .}" />
+                </Grid.GestureRecognizers>
+                <Label Grid.Row="0" Grid.Column="0" Text="{Binding Name}"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="{Binding Description}"/>
+                <Label Grid.Row="2" Grid.Column="0" Text="{Binding Expanded}"/>
+                <CollectionView Grid.Row="3" Grid.Column="0" IsVisible="{Binding Expanded}" ItemsSource="{Binding NestedItems}" ItemTemplate="{StaticResource NestedItem}"/>
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="NestedItem" x:DataType="local:NestedItemObject">
+            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*" Margin="10" BackgroundColor="Beige">
+                <Label Grid.Row="0" Grid.Column="0" Text="{Binding Name}"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="{Binding Description}"/>
+            </Grid>
+        </DataTemplate>
     </ContentPage.Resources>
     <VerticalStackLayout
             Padding="30,0"
             Spacing="25"
-        
         >
-        <IndicatorView 
-    x:Name="ItemIndicatorView" 
-    HorizontalOptions="Center"
-    IndicatorColor="BlueViolet"
-    Margin="0,10,0,10"
-    IndicatorSize="10"
-    IndicatorsShape="Circle"
-    HideSingle="False"
-/>
-        <CarouselView
-                ItemsSource="{Binding Items}"
-                CurrentItem="{Binding Item}"
-                CurrentItemChangedCommand="{Binding ItemChangedCommand}"
-                BackgroundColor="Aqua"
-                ItemTemplate="{StaticResource Item}"
-                ItemsUpdatingScrollMode="KeepScrollOffset"
-                CurrentItemChangedCommandParameter="{
-                Binding Source={RelativeSource Self}, 
-                Path=CurrentItem
-                }"
-                IndicatorView="ItemIndicatorView"
-                EmptyView="No items" 
-            >
-            <CarouselView.ItemsLayout>
-                <LinearItemsLayout Orientation="Horizontal" SnapPointsType="MandatorySingle"/>
-            </CarouselView.ItemsLayout>
-        </CarouselView>
-        </VerticalStackLayout>
 
+        <Grid RowDefinitions="Auto" ColumnDefinitions="*" BackgroundColor="Aqua">
+            <CollectionView
+                    x:Name="MainCollectionView"
+                Grid.Row="0"
+                Grid.Column="0"
+                ItemsSource="{Binding Items}"
+                ItemTemplate="{StaticResource ItemNested}"
+            >
+                <CollectionView.Header>
+                    <VerticalStackLayout>
+                        <Label Text="List Test"/>
+                    </VerticalStackLayout>
+                </CollectionView.Header>
+            </CollectionView>
+        </Grid>
+    </VerticalStackLayout>
 </ContentPage>

@@ -32,6 +32,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/j8dnd7QBvzBgGXdnH3ZAovWtujP4nmOHrtX6Kp21lOCbTN8yPe/api": {},
           "https://nuget.dymengapps.com/nuget": {}
         },
         "frameworks": {
@@ -81,11 +82,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.60, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.60, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -104,6 +105,10 @@
             "Prism.Maui": {
               "target": "Package",
               "version": "[9.0.401-pre, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
@@ -144,11 +149,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.60, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.60, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -167,6 +172,10 @@
             "Prism.Maui": {
               "target": "Package",
               "version": "[9.0.401-pre, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
@@ -207,11 +216,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.60, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.60, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -230,6 +239,10 @@
             "Prism.Maui": {
               "target": "Package",
               "version": "[9.0.401-pre, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
@@ -271,11 +284,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.60, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.60, )"
             },
             "Prism.Container.Extensions": {
               "target": "Package",
@@ -288,6 +301,10 @@
             "Prism.Maui": {
               "target": "Package",
               "version": "[9.0.401-pre, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
@@ -331,7 +348,7 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-arm64": {
+        "iossimulator-x64": {
           "#import": []
         },
         "maccatalyst-x64": {

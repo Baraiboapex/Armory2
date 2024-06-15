@@ -1,4 +1,5 @@
 C:\Users\MatthewBailey\source\repos\Armory2\Armory2\bin\Debug\net8.0-ios\iossimulator-arm64\publish\..\Armory2.app\\icudt.dat
+C:\Users\MatthewBailey\source\repos\Armory2\Armory2\bin\Debug\net8.0-ios\iossimulator-arm64\publish\..\Armory2.app\\PropertyChanged.dll
 C:\Users\MatthewBailey\source\repos\Armory2\Armory2\bin\Debug\net8.0-ios\iossimulator-arm64\publish\..\Armory2.app\\ar\Microsoft.Maui.Controls.resources.dll
 C:\Users\MatthewBailey\source\repos\Armory2\Armory2\bin\Debug\net8.0-ios\iossimulator-arm64\publish\..\Armory2.app\\ca\Microsoft.Maui.Controls.resources.dll
 C:\Users\MatthewBailey\source\repos\Armory2\Armory2\bin\Debug\net8.0-ios\iossimulator-arm64\publish\..\Armory2.app\\cs\Microsoft.Maui.Controls.resources.dll
