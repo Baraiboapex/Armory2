@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Maui;
+﻿using Armory;
+using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 using static DryIoc.Setup;
 
@@ -35,7 +36,12 @@ namespace Armory2
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
                 .UsePrism(PrismStartup.Configure)
-                .ConfigureFonts(fonts =>
+                .ConfigureMauiHandlers((handlers) =>
+                {
+#if IOS
+                    handlers.AddHandler(typeof(CustomListViewRenderer), typeof(CustomListViewRenderer));
+#endif
+                }).ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");

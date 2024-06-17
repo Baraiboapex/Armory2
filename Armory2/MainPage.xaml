@@ -36,7 +36,6 @@
             Padding="30,0"
             Spacing="25"
         >
-
         <Grid RowDefinitions="Auto" ColumnDefinitions="*" BackgroundColor="Aqua">
             <CollectionView
                     x:Name="MainCollectionView"

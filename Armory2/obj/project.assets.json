@@ -40487,24 +40487,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MatthewBailey\\.nuget\\packages\\": {},
+    "C:\\Users\\matth\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MatthewBailey\\source\\repos\\Armory2\\Armory2\\Armory2.csproj",
+      "projectUniqueName": "C:\\Users\\matth\\source\\repos\\Armory2\\Armory2\\Armory2.csproj",
       "projectName": "Armory2",
-      "projectPath": "C:\\Users\\MatthewBailey\\source\\repos\\Armory2\\Armory2\\Armory2.csproj",
-      "packagesPath": "C:\\Users\\MatthewBailey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MatthewBailey\\source\\repos\\Armory2\\Armory2\\obj\\",
+      "projectPath": "C:\\Users\\matth\\source\\repos\\Armory2\\Armory2\\Armory2.csproj",
+      "packagesPath": "C:\\Users\\matth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matth\\source\\repos\\Armory2\\Armory2\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MatthewBailey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -40517,9 +40517,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/j8dnd7QBvzBgGXdnH3ZAovWtujP4nmOHrtX6Kp21lOCbTN8yPe/api": {},
-        "https://nuget.dymengapps.com/nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-android34.0": {
@@ -40616,7 +40614,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-ios17.2": {
         "targetAlias": "net8.0-ios",
@@ -40683,7 +40681,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-maccatalyst17.2": {
         "targetAlias": "net8.0-maccatalyst",
@@ -40751,7 +40749,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
@@ -40818,7 +40816,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

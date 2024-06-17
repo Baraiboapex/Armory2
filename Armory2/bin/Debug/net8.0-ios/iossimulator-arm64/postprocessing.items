@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>Armory2.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>\Users\mattbailey\Library\Caches\Xamarin\mtbs\builds\Armory2\dbbb93bdf54c44b72c7df7aa6f796e67a90428707a1eada951bf5458dbea9d91\obj\Debug\net8.0-ios\iossimulator-arm64\mtouch-symbols.list</SymbolFile>
+      <SymbolFile>\Users\mattbailey\Library\Caches\Xamarin\mtbs\builds\Armory2\8dd52c94664100cae9a77f6807d65e05a4e3731d8f0dc2dd916a46b7c0031954\obj\Debug\net8.0-ios\iossimulator-arm64\mtouch-symbols.list</SymbolFile>
       <DSymName>Armory2.app.dSYM</DSymName>
-      <SourceProjectPath>C:\Users\MatthewBailey\source\repos\Armory2\Armory2</SourceProjectPath>
+      <SourceProjectPath>C:\Users\matth\source\repos\Armory2\Armory2</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

@@ -1,63 +1,63 @@
-C:\Users\MatthewBailey\.nuget\packages\communitytoolkit.maui\9.0.1\lib\net8.0-ios17.2\CommunityToolkit.Maui.dll
-C:\Users\MatthewBailey\.nuget\packages\communitytoolkit.maui.core\9.0.1\lib\net8.0-ios17.2\CommunityToolkit.Maui.Core.dll
-C:\Users\MatthewBailey\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll
-C:\Users\MatthewBailey\.nuget\packages\dryioc.dll\5.4.3\lib\net7.0\DryIoc.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.extensions.logging\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.extensions.logging.debug\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.extensions.options\8.0.0\lib\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.compatibility\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.Controls.Compatibility.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.Controls.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.xaml\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.Controls.Xaml.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.core\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.essentials\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.Essentials.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.graphics\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.Graphics.dll
-C:\Users\MatthewBailey\.nuget\packages\prism.container.abstractions\9.0.84-pre\lib\net8.0\Prism.Container.Abstractions.dll
-C:\Users\MatthewBailey\.nuget\packages\prism.container.dryioc\9.0.84-pre\lib\net8.0\Prism.Container.DryIoc.dll
-C:\Users\MatthewBailey\.nuget\packages\prism.container.extensions\8.0.62\lib\netstandard2.0\Prism.Container.Extensions.dll
-C:\Users\MatthewBailey\.nuget\packages\prism.core\9.0.401-pre\lib\net6.0\Prism.dll
-C:\Users\MatthewBailey\.nuget\packages\prism.dryioc.maui\9.0.401-pre\lib\net8.0\Prism.DryIoc.Maui.dll
-C:\Users\MatthewBailey\.nuget\packages\prism.events\9.0.401-pre\lib\net6.0\Prism.Events.dll
-C:\Users\MatthewBailey\.nuget\packages\prism.maui\9.0.401-pre\lib\net8.0-ios17.2\Prism.Maui.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ar\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ca\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\cs\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\da\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\de\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\el\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\es\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\fi\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\fr\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\he\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\hi\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\hr\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\hu\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\id\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\it\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ja\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ko\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ms\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\nb\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\nl\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\pl\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\pt-BR\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\pt\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ro\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ru\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\sk\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\sv\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\th\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\tr\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\uk\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\vi\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\zh-HK\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\zh-Hans\Microsoft.Maui.Controls.resources.dll
-C:\Users\MatthewBailey\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\zh-Hant\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\communitytoolkit.maui\9.0.1\lib\net8.0-ios17.2\CommunityToolkit.Maui.dll
+C:\Users\matth\.nuget\packages\communitytoolkit.maui.core\9.0.1\lib\net8.0-ios17.2\CommunityToolkit.Maui.Core.dll
+C:\Users\matth\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll
+C:\Users\matth\.nuget\packages\dryioc.dll\5.4.3\lib\net7.0\DryIoc.dll
+C:\Users\matth\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\matth\.nuget\packages\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\matth\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\matth\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\matth\.nuget\packages\microsoft.extensions.logging\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\matth\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\matth\.nuget\packages\microsoft.extensions.logging.debug\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\matth\.nuget\packages\microsoft.extensions.options\8.0.0\lib\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\matth\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.compatibility\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.Controls.Compatibility.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.Controls.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.xaml\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.Controls.Xaml.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.core\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.essentials\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.Essentials.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.graphics\8.0.60\lib\net8.0-ios17.2\Microsoft.Maui.Graphics.dll
+C:\Users\matth\.nuget\packages\prism.container.abstractions\9.0.84-pre\lib\net8.0\Prism.Container.Abstractions.dll
+C:\Users\matth\.nuget\packages\prism.container.dryioc\9.0.84-pre\lib\net8.0\Prism.Container.DryIoc.dll
+C:\Users\matth\.nuget\packages\prism.container.extensions\8.0.62\lib\netstandard2.0\Prism.Container.Extensions.dll
+C:\Users\matth\.nuget\packages\prism.core\9.0.401-pre\lib\net6.0\Prism.dll
+C:\Users\matth\.nuget\packages\prism.dryioc.maui\9.0.401-pre\lib\net8.0\Prism.DryIoc.Maui.dll
+C:\Users\matth\.nuget\packages\prism.events\9.0.401-pre\lib\net6.0\Prism.Events.dll
+C:\Users\matth\.nuget\packages\prism.maui\9.0.401-pre\lib\net8.0-ios17.2\Prism.Maui.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ar\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ca\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\cs\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\da\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\de\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\el\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\es\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\fi\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\fr\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\he\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\hi\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\hr\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\hu\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\id\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\it\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ja\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ko\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ms\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\nb\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\nl\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\pl\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\pt-BR\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\pt\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ro\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\ru\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\sk\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\sv\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\th\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\tr\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\uk\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\vi\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\zh-HK\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\zh-Hans\Microsoft.Maui.Controls.resources.dll
+C:\Users\matth\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-ios17.2\zh-Hant\Microsoft.Maui.Controls.resources.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\lib\net8.0\Microsoft.CSharp.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\lib\net8.0\Microsoft.VisualBasic.Core.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\lib\net8.0\Microsoft.VisualBasic.dll
@@ -225,7 +225,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-ar
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\lib\net8.0\WindowsBase.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\lib\net8.0\mscorlib.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\lib\net8.0\netstandard.dll
-C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8053\runtimes\iossimulator-arm64\lib\net8.0\Microsoft.iOS.dll
+C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8004\runtimes\iossimulator-arm64\lib\net8.0\Microsoft.iOS.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\native\System.Private.CoreLib.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\native\icudt.dat
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\native\icudt_CJK.dat
@@ -259,11 +259,11 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-ar
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\native\libmono-component-marshal-ilgen.dylib
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\native\libmonosgen-2.0.a
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64\8.0.5\runtimes\iossimulator-arm64\native\libmonosgen-2.0.dylib
-C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8053\runtimes\iossimulator-arm64\native\Microsoft.iOS.registrar.a
-C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8053\runtimes\iossimulator-arm64\native\libextension-dotnet.a
-C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8053\runtimes\iossimulator-arm64\native\libxamarin-dotnet-debug.a
-C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8053\runtimes\iossimulator-arm64\native\libxamarin-dotnet-debug.dylib
-C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8053\runtimes\iossimulator-arm64\native\libxamarin-dotnet-nativeaot-debug.a
-C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8053\runtimes\iossimulator-arm64\native\libxamarin-dotnet-nativeaot.a
-C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8053\runtimes\iossimulator-arm64\native\libxamarin-dotnet.a
-C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8053\runtimes\iossimulator-arm64\native\libxamarin-dotnet.dylib
+C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8004\runtimes\iossimulator-arm64\native\Microsoft.iOS.registrar.a
+C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8004\runtimes\iossimulator-arm64\native\libextension-dotnet.a
+C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8004\runtimes\iossimulator-arm64\native\libxamarin-dotnet-debug.a
+C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8004\runtimes\iossimulator-arm64\native\libxamarin-dotnet-debug.dylib
+C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8004\runtimes\iossimulator-arm64\native\libxamarin-dotnet-nativeaot-debug.a
+C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8004\runtimes\iossimulator-arm64\native\libxamarin-dotnet-nativeaot.a
+C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8004\runtimes\iossimulator-arm64\native\libxamarin-dotnet.a
+C:\Program Files\dotnet\packs\Microsoft.iOS.Runtime.iossimulator-arm64\17.2.8004\runtimes\iossimulator-arm64\native\libxamarin-dotnet.dylib
