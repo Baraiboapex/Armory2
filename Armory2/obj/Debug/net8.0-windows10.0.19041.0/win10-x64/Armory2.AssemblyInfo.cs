@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Armory2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+91fbf0e34fe2e5e59aa616361f6087d354119e42")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d537d4b6a2b8c1cf7d036c9fb33c93083e2aca5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Armory2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Armory2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,6 +5,9 @@ using PropertyChanged;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 using Microsoft.Maui.Controls.Handlers.Compatibility;
+using Microsoft.Maui.Platform;
+using System.Collections;
+
 
 #if IOS
 using UIKit;
@@ -19,6 +22,8 @@ namespace Armory2
 
         public static event Action ViewCellSizeChangedEvent;
 
+        MainPageViewModel ViewModel { get; set; }
+
         public MainPage(
             MainPageViewModel vm
         )
@@ -29,79 +34,139 @@ namespace Armory2
 
             vm.MainCollectionView = MainCollectionView;
             vm.MonitorViewCellSizeChange = ViewCellSizeChangedEvent;
-        }
+            
+            vm.CurrentPage = this;
 
+            ViewModel = vm;
+        }
+        
+        private void MainCollectionView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            ViewModel.SectionTapped.Execute((ItemObject)e.SelectedItem);
+        }
     }
 
     [AddINotifyPropertyChangedInterface]
     public class ItemObject: ObservableObject
     {
+        public int Id { get; set; }
         public int Index { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public bool Expanded { get; set; }
-        public ObservableCollection<NestedItemObject> NestedItems { get; set; }
-    }
-
-    [AddINotifyPropertyChangedInterface]
-    public class NestedItemObject : ObservableObject
-    {
-        public int Index { get; set; }
-        public string Name { set; get; }
-        public string Description { get; set; }
-
+        public ObservableCollection<ItemObject> NestedItems { get; set; }
     }
 
     public partial class MainPageViewModel: BaseViewModel, INavigationAware
     {
-        [ObservableProperty]
-        public ItemObject item;
 
         private bool _timerRunning;
 
-        public ObservableCollection<ItemObject> Items { get; set; } = new();
-
-        public ICommand ItemChangedCommand => new DelegateCommand<ItemObject>(ItemChanged);
+        public List<ItemObject> CurrentList { get; private set; }
+        public ObservableCollection<ItemObject> Items { get; set; }
 
         public ICommand SectionTapped => new DelegateCommand<ItemObject>(OnSectionTapped);
 
-        public bool CurrentPage { get; set; }
+        public ItemObject SelectedObject {  get; set; } 
 
-        public CollectionView MainCollectionView {  get; set; }
+        public MainPage CurrentPage { get; set; }
 
-        public static event Action ViewCellSizeChangedEvent;
+        [ObservableProperty]
+        public string _collectionViewHeight;
 
-        public ContentView View {  get; set; }
+        public ResizingCollectionView MainCollectionView {  get; set; }
+
         public Action MonitorViewCellSizeChange { get; internal set; }
 
         public MainPageViewModel()
         {
-            InitializePage();
         }
+
+        
+
+#if IOS
+        UICollectionView iosCollectionView { get; set; }
+#endif
 
         private void InitializePage()
         {
             var items = new ObservableCollection<ItemObject> {
                 new ItemObject(){
+                    Id = 1,
                     Index = 0,
                     Name="Item1",
                     Description="Desc1",
-                    NestedItems = new ObservableCollection<NestedItemObject>()
+                    NestedItems = new ObservableCollection<ItemObject>()
                     {
-                        new NestedItemObject()
-                        { 
+                        new ItemObject()
+                        {
+                            Id = 11,
                             Index = 0,
                             Name="NestedItem1",
-                            Description="Nested Desc 1"
+                            Description="Nested Desc 1",
+                            NestedItems=new ObservableCollection<ItemObject>()
+                            {
+                                new ItemObject()
+                                {
+                                    Id = 111,
+                                    Index = 0,
+                                    Name="NestedItemJOJ",
+                                    Description="Nested Desc 1"
+                                },
+                                new ItemObject()
+                                {
+                                    Id = 112,
+                                    Index = 1,
+                                    Name="NestedItemJOJ2",
+                                    Description="Nested Desc 2"
+                                },
+                                new ItemObject()
+                                { 
+                                    Id = 113,
+                                    Index = 2,
+                                    Name="NestedItemJOJ3",
+                                    Description="Nested Desc 3"
+                                },
+                                new ItemObject()
+                                {
+                                    Id = 114,
+                                    Index = 3,
+                                    Name="NestedItemJOJ4",
+                                    Description="Nested Desc 2"
+                                },
+                                new ItemObject()
+                                {
+                                    Id = 115,
+                                    Index = 4,
+                                    Name="NestedItemJOJ5",
+                                    Description="Nested Desc 3"
+                                },
+                                new ItemObject()
+                                {
+                                    Id = 116,
+                                    Index = 5,
+                                    Name="NestedItemJOJ6",
+                                    Description="Nested Desc 4"
+                                },
+                                new ItemObject()
+                                {
+                                    Id = 117,
+                                    Index = 6,
+                                    Name="NestedItemJOJ7",
+                                    Description="Nested Desc 5"
+                                }
+                            }
                         },
-                        new NestedItemObject()
+                        new ItemObject()
                         {
+                            Id = 12,
                             Index = 1,
                             Name="NestedItem2",
                             Description="Nested Desc 2"
                         },
-                        new NestedItemObject()
+                        new ItemObject()
                         {
+                            Id = 13,
                             Index = 2,
                             Name="NestedItem3",
                             Description="Nested Desc 3"
@@ -109,27 +174,29 @@ namespace Armory2
                     }
                 },
                 new ItemObject(){
+                    Id=2,
                     Index = 1,
                     Name="Item2",
                     Description="Desc2",
-                    NestedItems = new ObservableCollection<NestedItemObject>()
+                    NestedItems = new ObservableCollection<ItemObject>()
                     {
-                        new NestedItemObject()
+                        new ItemObject()
                         {
-
+                            Id = 21,
                             Index = 0,
                             Name="NestedItem1",
                             Description="Nested Desc 1"
                         },
-                        new NestedItemObject()
+                        new ItemObject()
                         {
-
+                            Id = 22,
                             Index = 1,
                             Name="NestedItem2",
                             Description="Nested Desc 2"
                         },
-                        new NestedItemObject()
+                        new ItemObject()
                         {
+                            Id = 22,
                             Index = 2,
                             Name="NestedItem3",
                             Description="Nested Desc 3"
@@ -137,25 +204,26 @@ namespace Armory2
                     }
                 },
                 new ItemObject(){
+                    Id = 3,
                     Index = 2,
                     Name="Item3",
                     Description="Desc3",
-                    NestedItems = new ObservableCollection<NestedItemObject>()
+                    NestedItems = new ObservableCollection<ItemObject>()
                     {
-                        new NestedItemObject()
-                        {
+                        new ItemObject()
+                        {Id = 31,
                             Index = 0,
                             Name="NestedItem1",
                             Description="Nested Desc 0"
                         },
-                        new NestedItemObject()
-                        {
+                        new ItemObject()
+                        {Id = 32,
                             Index = 1,
                             Name="NestedItem2",
                             Description="Nested Desc 1"
                         },
-                        new NestedItemObject()
-                        {
+                        new ItemObject()
+                        {Id = 33,
                             Index = 2,
                             Name="NestedItem3",
                             Description="Nested Desc 2"
@@ -163,25 +231,27 @@ namespace Armory2
                     }
                 },
                 new ItemObject(){
+
+                    Id = 4,
                     Index = 3,
                     Name="Item4",
                     Description="Desc4",
-                    NestedItems = new ObservableCollection<NestedItemObject>()
+                    NestedItems = new ObservableCollection<ItemObject>()
                     {
-                        new NestedItemObject()
-                        {
+                        new ItemObject()
+                        {Id = 41,
                             Index = 0,
                             Name="NestedItem1",
                             Description="Nested Desc 1"
                         },
-                        new NestedItemObject()
-                        {
+                        new ItemObject()
+                        {Id = 42,
                             Index= 1,
                             Name="NestedItem2",
                             Description="Nested Desc 2"
                         },
-                        new NestedItemObject()
-                        {
+                        new ItemObject()
+                        {Id = 43,
                             Index= 2,
                             Name="NestedItem3",
                             Description="Nested Desc 3"
@@ -189,25 +259,26 @@ namespace Armory2
                     }
                 },
                 new ItemObject(){
-                     Index = 4,
+                    Id=5,
+                    Index = 4,
                     Name="Item5",
                     Description="Desc5",
-                    NestedItems = new ObservableCollection<NestedItemObject>()
+                    NestedItems = new ObservableCollection<ItemObject>()
                     {
-                        new NestedItemObject()
-                        {
+                        new ItemObject()
+                        {Id=51,
                             Index = 0,
                             Name="NestedItem1",
                             Description="Nested Desc 1"
                         },
-                        new NestedItemObject()
-                        {
+                        new ItemObject()
+                        {Id=52,
                             Index= 1,
                             Name="NestedItem2",
                             Description="Nested Desc 2"
                         },
-                        new NestedItemObject()
-                        {
+                        new ItemObject()
+                        {Id=53,
                             Index= 2,
                             Name="NestedItem3",
                             Description="Nested Desc 3"
@@ -216,7 +287,9 @@ namespace Armory2
                 },
             };
 
-            Items = items;
+            CurrentList = items.ToList();
+
+            Items = new ObservableCollection<ItemObject>(CurrentList);
         }
 
         public void ItemChanged(ItemObject item)
@@ -227,41 +300,74 @@ namespace Armory2
         public void OnSectionTapped(ItemObject section)
         {
             section.Expanded = !section.Expanded;
+
 #if IOS
-            var baseView = MainCollectionView.Handler.PlatformView;
 
-            MonitorViewCellSizeChange.Invoke();
+            Hashtable table = SearchListRecursively(
+                Items,
+                (item) => item.Id == section.Id
+            );
 
-            //if(baseView != null)
+            var indices = table["IndexPath"] as List<int>;
+
+
+            //if(MainCollectionView.Handler is ListViewHandler listViewHandler)
             //{
-            //    var view = baseView as UIView;
-
-            //    if(view != null)
-            //    {
-            //        var subViewItemIsCollecitonView = view.Subviews[0] is UICollectionView;
-
-            //        if(subViewItemIsCollecitonView)
-            //        {
-            //            var iosCollectionView = (view.Subviews[0] as UICollectionView);
-
-            //            nint index = Convert.ToUInt16(section.Index);
-            //            nint sect = Convert.ToUInt16(0);
-            //            NSIndexPath iosIndex = NSIndexPath.FromItemSection(index, sect);
-            //            NSIndexPath[] iosIndexSet = { iosIndex };
-
-            //            iosCollectionView.ReloadItems(iosIndexSet);
-            //        }
-
-            //    }
+            //    listViewHandler.RaiseViewCellSizeChangedEvent();
             //}
-
-
 #endif
         }
 
-        private void MainCollectionView_Refreshing(object? sender, EventArgs e)
+        private Hashtable? SearchListRecursively(
+            ObservableCollection<ItemObject> items, 
+            Func<ItemObject,bool> condition,
+            List<int> indexArray = null
+        )
         {
+            Hashtable result = new Hashtable();
 
+            bool foundItem = false;
+
+            foreach (var item in items.Select((value,index) => new { index, value })) {
+
+                if (item.index <= items.Count - 1)
+                {
+                    indexArray.Add(item.index);
+
+                    if (indexArray == null)
+                    {
+                        indexArray = new List<int>();
+                    }
+
+                    if (item.index >= items.Count - 1)
+                    {
+                        break;
+                    }
+
+                    if (condition(item.value))
+                    {
+                        result.Add("Item", item);
+                        result.Add("IndexPath", indexArray);
+
+                        foundItem = true;
+
+                        break;
+                    }
+
+                    if (item.value.NestedItems != null)
+                    {
+                        if (indexArray != null)
+                            SearchListRecursively(item.value.NestedItems, condition, indexArray);
+                    }
+                }
+            }
+
+            if(foundItem)
+            {
+                return result;
+            }
+
+            return null;
         }
 
         public void OnNavigatedFrom(INavigationParameters parameters)
@@ -270,7 +376,7 @@ namespace Armory2
 
         public void OnNavigatedTo(INavigationParameters parameters)
         {
-            InitializePage();
+                InitializePage();
         }
     }
 }

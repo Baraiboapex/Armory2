@@ -8,48 +8,55 @@
              >
 
     <ContentPage.Resources>
-        <DataTemplate x:Key="Item" x:DataType="local:ItemObject">
-            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*" Margin="10">
-                <Label Grid.Row="0" Grid.Column="0" Text="{Binding Name}"/>
-                <Label Grid.Row="1" Grid.Column="0" Text="{Binding Description}"/>
-            </Grid>
-        </DataTemplate>
         <DataTemplate x:Key="ItemNested" x:DataType="local:ItemObject">
-            <Grid RowDefinitions="Auto,Auto,Auto,Auto" ColumnDefinitions="*" Margin="10" BackgroundColor="Bisque">
+            <Grid ColumnDefinitions="*" Margin="10" BackgroundColor="Olive">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
                 <Grid.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding BindingContext.SectionTapped, Source={x:Reference Form}}" CommandParameter="{Binding .}" />
                 </Grid.GestureRecognizers>
                 <Label Grid.Row="0" Grid.Column="0" Text="{Binding Name}"/>
                 <Label Grid.Row="1" Grid.Column="0" Text="{Binding Description}"/>
                 <Label Grid.Row="2" Grid.Column="0" Text="{Binding Expanded}"/>
-                <CollectionView Grid.Row="3" Grid.Column="0" IsVisible="{Binding Expanded}" ItemsSource="{Binding NestedItems}" ItemTemplate="{StaticResource NestedItem}"/>
-            </Grid>
-        </DataTemplate>
-        <DataTemplate x:Key="NestedItem" x:DataType="local:NestedItemObject">
-            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*" Margin="10" BackgroundColor="Beige">
-                <Label Grid.Row="0" Grid.Column="0" Text="{Binding Name}"/>
-                <Label Grid.Row="1" Grid.Column="0" Text="{Binding Description}"/>
+                <local:ResizingCollectionView BackgroundColor="Olive" Grid.Row="3" Grid.Column="0" IsVisible="{Binding Expanded}" ItemsSource="{Binding NestedItems}" ItemTemplate="{StaticResource ItemNested}"/>
             </Grid>
         </DataTemplate>
     </ContentPage.Resources>
-    <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25"
+    <FlexLayout
         >
-        <Grid RowDefinitions="Auto" ColumnDefinitions="*" BackgroundColor="Aqua">
-            <CollectionView
-                    x:Name="MainCollectionView"
+        <local:ResizingCollectionView
+                x:Name="MainCollectionView"
+                VerticalOptions="FillAndExpand"
                 Grid.Row="0"
                 Grid.Column="0"
                 ItemsSource="{Binding Items}"
-                ItemTemplate="{StaticResource ItemNested}"
+                SelectedItem="{Binding SelectedObject}"
+                RowHeight="{Binding CollectionViewHeight}"
+            CanReorderItems="True"
             >
-                <CollectionView.Header>
-                    <VerticalStackLayout>
-                        <Label Text="List Test"/>
-                    </VerticalStackLayout>
-                </CollectionView.Header>
-            </CollectionView>
-        </Grid>
-    </VerticalStackLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="local:ItemObject">
+                    <Grid ColumnDefinitions="*" Margin="10" BackgroundColor="Bisque">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BindingContext.SectionTapped, Source={x:Reference Form}}" CommandParameter="{Binding .}" />
+                        </Grid.GestureRecognizers>
+                        <Label Grid.Row="0" Grid.Column="0" Text="{Binding Name}"/>
+                        <Label Grid.Row="1" Grid.Column="0" Text="{Binding Description}"/>
+                        <Label Grid.Row="2" Grid.Column="0" Text="{Binding Expanded}"/>
+                        <local:ResizingCollectionView BackgroundColor="Olive" Grid.Row="3" Grid.Column="0"  IsVisible="{Binding Expanded}" ItemsSource="{Binding NestedItems}" ItemTemplate="{StaticResource ItemNested}"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </local:ResizingCollectionView>
+    </FlexLayout>
 </ContentPage>

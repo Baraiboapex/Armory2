@@ -74,4 +74,10 @@
 	  </MauiXaml>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Platforms\iOS\Effects\" />
+	</ItemGroup>
+
+	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionArmory2HideInfoBar="True" /></VisualStudio></ProjectExtensions>
+
 </Project>
